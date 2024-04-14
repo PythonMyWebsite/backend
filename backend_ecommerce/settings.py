@@ -144,4 +144,4 @@ cloudinary.config(
 CORS_ALLOWED_ORIGINS = [
      "http://localhost:3000", #cho phep domain khac truy cap
 ]
-CSRF_TRUSTED_ORIGINS = ['https://backend-vffx.onrender']
+CSRF_TRUSTED_ORIGINS = ['https://backend-vffx.onrender.com']
