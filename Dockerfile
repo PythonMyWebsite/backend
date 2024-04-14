@@ -24,4 +24,4 @@ ENV PYTHONUNBUFFERED=1
 USER appuser
 
 # Lệnh chạy ứng dụng
-CMD [ "python3", "manage.py", "runserver", "0.0.0.0:8000", "--noreload"]
+CMD [ "venv/bin/python3", "manage.py", "runserver", "0.0.0.0:8000", "--noreload"]
