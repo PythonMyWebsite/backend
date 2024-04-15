@@ -145,5 +145,6 @@ cloudinary.config(
 
 CORS_ALLOWED_ORIGINS = [
      "http://localhost:3000", #cho phep domain khac truy cap
+     "https://frontend-cyan-sigma.vercel.app"
 ]
 CSRF_TRUSTED_ORIGINS = ['https://backend-vffx.onrender.com']
