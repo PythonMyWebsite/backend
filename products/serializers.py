@@ -28,6 +28,7 @@ class ProductSerializer(serializers.ModelSerializer):
             'id',
             'name',
             'price',
+            'desc',
             'create_at',
             'update_at',
             'category_id',
