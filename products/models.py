@@ -13,6 +13,7 @@ class Category(models.Model):
 class Product(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
+    desc = models.CharField(max_length=255)
     price = models.FloatField()
     thumbnail = CloudinaryField('image')
     create_at = models.DateTimeField(auto_now_add=True)
